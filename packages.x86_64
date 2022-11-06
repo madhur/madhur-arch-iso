@@ -1,0 +1,346 @@
+# BASE
+
+## Base system
+iptables-nft
+base
+base-devel
+archlinux-keyring
+endeavouros-mirrorlist
+endeavouros-keyring
+cryptsetup
+device-mapper
+diffutils
+dracut
+edk2-shell
+inetutils
+less
+linux
+linux-firmware
+linux-headers
+logrotate
+lsb-release
+man-db
+man-pages
+mdadm
+nano
+nano-syntax-highlighting
+perl
+s-nail
+sudo
+sysfsutils
+systemd-sysvcompat
+texinfo
+which
+vi
+
+## Filesystem
+btrfs-progs
+dosfstools
+e2fsprogs
+exfatprogs
+f2fs-tools
+gvfs
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
+jfsutils
+lvm2
+mtools
+nfs-utils
+nilfs-utils
+ntfs-3g
+reiserfsprogs
+xfsprogs
+
+## Boot
+efibootmgr
+efitools
+
+# HARDWARE
+
+## CPU
+amd-ucode
+intel-ucode
+
+## X system
+mesa
+mesa-utils
+nvidia-dkms
+nvidia-utils
+xf86-input-libinput
+xf86-video-amdgpu
+xf86-video-ati
+xf86-video-intel
+xorg-server
+xorg-xdpyinfo
+xorg-xinit
+xorg-xinput
+xorg-xkill
+xorg-xrandr
+
+## Network hardware
+b43-fwcutter
+broadcom-wl-dkms
+linux-atm
+
+## General hardware
+lsscsi
+sg3_utils
+smartmontools
+usbutils
+
+## Audio hardware
+alsa-firmware
+alsa-plugins
+alsa-utils
+ffmpegthumbnailer
+gst-libav
+gst-plugin-pipewire
+gst-plugins-bad
+gst-plugins-ugly
+libdvdcss
+paprefs
+pavucontrol
+pipewire-alsa
+pipewire-jack
+pipewire-pulse
+rtkit
+sof-firmware
+wireplumber
+
+
+# SOFTWARE
+
+## General system
+bash-completion
+dialog
+dmraid
+downgrade
+duf
+fakeroot
+freetype2
+git
+glances
+python-packaging
+gpm
+gptfdisk
+haveged
+hwdetect
+hwinfo
+inxi
+libgsf
+libopenraw
+mlocate
+ntp
+pacman-contrib
+pkgfile
+poppler-glib
+power-profiles-daemon
+rebuild-detector
+reflector
+rsync
+tldr
+unrar
+unzip
+wget
+xdg-user-dirs-gtk
+xdg-utils
+xz
+
+## Network
+bind
+dhclient
+dnsmasq
+ethtool
+gnu-netcat
+iwd
+modemmanager
+nbd
+ndisc6
+net-tools
+netctl
+networkmanager
+networkmanager-openvpn
+nmap
+nss-mdns
+openconnect
+openvpn
+ppp
+pptpclient
+rp-pppoe
+usb_modeswitch
+vpnc
+whois
+wireless-regdb
+wireless_tools
+wpa_supplicant
+xl2tpd
+
+## Bluetooth
+bluez
+bluez-utils
+blueman
+
+## Firewall
+firewalld
+python-pyqt5
+python-capng
+
+
+# ISO
+
+## Live iso specific
+arch-install-scripts
+memtest86+
+mkinitcpio-archiso
+pv
+syslinux
+
+## Live iso tools
+clonezilla
+gpart
+gparted
+grsync
+hdparm
+
+
+# DESKTOP
+
+## Display manager
+accountsservice
+lightdm-slick-greeter
+eos-lightdm-slick-theme
+
+## Desktop environment
+libwnck3
+network-manager-applet
+thunar-archive-plugin
+thunar-media-tags-plugin
+
+## Editor
+xed
+
+## Archive
+file-roller
+
+## Image viewer
+ristretto
+
+## Video player
+parole
+
+## Browser
+firefox
+
+## System
+galculator
+meld
+neofetch
+
+## Fonts
+adobe-source-han-sans-cn-fonts
+adobe-source-han-sans-jp-fonts
+adobe-source-han-sans-kr-fonts
+cantarell-fonts
+noto-fonts
+ttf-bitstream-vera
+ttf-dejavu
+ttf-liberation
+ttf-opensans
+
+
+# ENDEAVOUROS REPO
+
+## General
+arc-gtk-theme-eos
+#endeavouros-theming
+#endeavouros-xfce4-terminal-colors
+eos-apps-info
+eos-hooks
+eos-log-tool
+eos-packagelist
+#eos-quickstart
+eos-qogir-icons
+eos-rankmirrors
+eos-update-notifier
+#nvidia-installer-dkms
+rate-mirrors
+reflector-simple
+#welcome
+yad-eos
+yay
+
+## Calamares EndeavourOS
+calamares_config_ce
+calamares_config_default
+calamares_current
+ckbcomp
+kvantum
+qt5ct
+
+
+# VM SUPPORT
+
+## Qemu
+qemu-guest-agent
+
+## Spice
+spice-vdagent
+
+## Virtual-box
+virtualbox-guest-utils
+
+## VMware
+open-vm-tools
+xf86-input-vmmouse
+xf86-video-vmware
+
+# eos-arm needed packages for chroot into arm device
+qemu-arm-aarch64-static-bin
+
+
+#madhur
+guake
+sxhkd
+conky
+rust
+jgmenu
+copyq
+hddtemp
+flatpak
+docker
+feh
+noto-fonts
+cpupower
+redshift
+python-virtualenv
+ansible
+aws-cli
+zsh-syntax-highlighting
+ttf-font-awesome
+zsh-autosuggestions
+expect
+xorg-xev
+gvfs
+thunar
+xclip
+vagrant
+virtualbox
+tmux
+ncurses
+redis
+kubectl
+htop
+iotop
+tcpdump
+youtube-dl
+postfix
+nvme-cli
+qt5ct
+lxsession
+bat
+net-tools
+rofi
+xsettings
