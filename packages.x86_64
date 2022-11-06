@@ -257,7 +257,7 @@ ttf-opensans
 arc-gtk-theme-eos
 #endeavouros-theming
 #endeavouros-xfce4-terminal-colors
-eos-apps-info
+#eos-apps-info
 eos-hooks
 eos-log-tool
 eos-packagelist
@@ -343,4 +343,12 @@ lxsession
 bat
 net-tools
 rofi
-xsettings
+xsettingsd
+prometheus
+
+# custom packages
+google-chrome
+i3-gaps
+kafka
+visual-studio-code-bin
+offsetexplorer2
